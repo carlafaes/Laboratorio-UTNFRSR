@@ -16,3 +16,7 @@ print(f'el resultado de la division es: {division}')
 #modulo
 modulo= operandoA & operandoB
 print(f'El modulo es {modulo}')
+
+#exponente
+exponente= operandoA ** operandoB
+print(f'el resultado del exponente es {exponente}')
