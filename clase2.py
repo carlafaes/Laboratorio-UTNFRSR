@@ -31,4 +31,11 @@ else:
     print('El resultado es falso')
 
 #Procesar la entrada del usuario
+resultado = input("Digite un numero") #regresa un dato tipo string
+print(resultado)
 
+#Copnversion de la entrada de datos
+numero1_=int(input('Escribe el primer numero: '))
+numero2_=int(input('Escribe el segundo numero: '))
+resultado= numero1_ + numero2_
+print('El resultado de la suma es ', resultado)
