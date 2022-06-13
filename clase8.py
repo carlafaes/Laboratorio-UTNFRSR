@@ -27,5 +27,12 @@ cadena = 'Hello'
 for letra in cadena:
     print(letra)
 else:
-    print('Fin dek ciclo for')
+    print('Fin del ciclo for')
 
+#break
+for letra in 'Alemania':
+    if letra == 'a':
+        print(f'Letra encontrada: {letra}')
+        break
+    else:
+        print('fin del ciclo for')
