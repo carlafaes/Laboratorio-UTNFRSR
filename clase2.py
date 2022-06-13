@@ -12,3 +12,23 @@ print(id(x))
 print(id(y))
 
 print(id(z))
+
+#Manejo de cadenas 
+miGrupoFavorito= 'The letter black'
+print("Mi grupo favorito es " + miGrupoFavorito)
+
+numero1= "7"
+numero2= "8"
+print(int(numero1) + int(numero2))
+
+#Tipos de booleanos
+miBool= 21 < 23
+print(miBool)
+
+if miBool:
+    print('El resultado es verdadero')
+else:
+    print('El resultado es falso')
+
+#Procesar la entrada del usuario
+

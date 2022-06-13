@@ -1,0 +1,1 @@
+titulo=input("proporciona el tiutlo del libro")
