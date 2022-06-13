@@ -36,3 +36,14 @@ for letra in 'Alemania':
         break
     else:
         print('fin del ciclo for')
+
+
+#continue
+for i in range(6):
+    if i % 2 == 0:
+        print(f'Valor: {i}')
+
+for i in range(6):
+    if i % 2 == 0:
+            continue
+            print(f'Valor: {i}')
