@@ -25,23 +25,44 @@
 
 #Ejercicio 3: Leer 10 numeros e imprimir cuantos son positivos, #cuantos son negativos y cuantos son neutros(cero).
 
-i=10
-conteo_positivo=0
-conteo_negativo=0
-conteo_neutros=0
+# i=10
+# conteo_positivo=0
+# conteo_negativo=0
+# conteo_neutros=0
 
-num=int(input("Digite un numero: "))
+# num=int(input("Digite un numero: "))
+
+# while i > 0:
+#     if num > 0:
+#         conteo_positivo+=1
+#     elif num < 0:
+#         conteo_negativo+=1
+#     else:
+#         conteo_neutros+=1
+#     i-=1
+#     num=int(input("Digite un numero: "))
+
+# print(f"Los numeros positivos son: {conteo_positivo}")
+# print(f"Los numeros negativos son: {conteo_negativo}")
+# print(f"Los numeros neutros son: {conteo_neutros}")
+
+#Ejercicio 4
+#Suponga que se tiene un conjunto de calificaciones de un grupo de #10 alumnos. Realizar un algoritmo para calcular la calificacion #promedio y la calificacion mas baja de todo el grupo.
+
+calificion_promedio= float(0)
+calificacion_baja= float(9)
+calificacion= float(0)
+suma=float(0)
+i=10
 
 while i > 0:
-    if num > 0:
-        conteo_positivo+=1
-    elif num < 0:
-        conteo_negativo+=1
-    else:
-        conteo_neutros+=1
+    calificacion=float(input("Digite la calificacion: "))
+    if calificacion < calificacion_baja:
+        calificacion_baja=calificacion
+    suma+=calificacion
     i-=1
-    num=int(input("Digite un numero: "))
 
-print(f"Los numeros positivos son: {conteo_positivo}")
-print(f"Los numeros negativos son: {conteo_negativo}")
-print(f"Los numeros neutros son: {conteo_neutros}")
+calificion_promedio= suma/10
+print(f"La calificacion promedio es: {calificion_promedio}")
+print(f"La calificacion mas baja es: {calificacion_baja}")
+
