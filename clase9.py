@@ -15,10 +15,33 @@
 
 ##Calcular la suma de "N" primeros numeros
 
-N=int(input("Digite la cantidad de numeros: "))
-suma=0
-while N > 0:
-    num=int(input("Digite el numero: "))
-    suma+=num
-    N-=1
-print(f"La suma de los numeros es: {suma}")
+# N=int(input("Digite la cantidad de numeros: "))
+# suma=0
+# while N > 0:
+#     num=int(input("Digite el numero: "))
+#     suma+=num
+#     N-=1
+# print(f"La suma de los numeros es: {suma}")
+
+#Ejercicio 3: Leer 10 numeros e imprimir cuantos son positivos, #cuantos son negativos y cuantos son neutros(cero).
+
+i=10
+conteo_positivo=0
+conteo_negativo=0
+conteo_neutros=0
+
+num=int(input("Digite un numero: "))
+
+while i > 0:
+    if num > 0:
+        conteo_positivo+=1
+    elif num < 0:
+        conteo_negativo+=1
+    else:
+        conteo_neutros+=1
+    i-=1
+    num=int(input("Digite un numero: "))
+
+print(f"Los numeros positivos son: {conteo_positivo}")
+print(f"Los numeros negativos son: {conteo_negativo}")
+print(f"Los numeros neutros son: {conteo_neutros}")
