@@ -1,10 +1,10 @@
 ##Ejercicio 5:
-# numero= int(input("Ingrese un numero: "))
-# factorial=1
-# if numero != 0:
-#     for i in range(1,numero+1):
-#         factorial=factorial*i
-#     print("El factorial de",numero,"es:",factorial)
+numero= int(input("Ingrese un numero: "))
+factorial=1
+if numero != 0:
+    for i in range(1,numero+1):
+        factorial=factorial*i
+    print("El factorial de",numero,"es:",factorial)
 
 ##Ejercicio 6:
 # num=0
@@ -47,20 +47,20 @@
 
 
 #Ejercicio 7:
-i=1
-horas=0
-tarifa=float(0)
-salario=float(0)
-suma=float(0)
+# i=1
+# horas=0
+# tarifa=float(0)
+# salario=float(0)
+# suma=float(0)
 
 
 
-while i <= 5:
-    horas=int(input("Ingrese el numero de horas trabajadas: "))
-    tarifa=int(input("Ingrese la tarifa por hora: "))
-    salario=horas*tarifa
-    print("El salario es: ",salario)
-    suma+=salario
-    i+=1
+# while i <= 5:
+#     horas=int(input("Ingrese el numero de horas trabajadas: "))
+#     tarifa=int(input("Ingrese la tarifa por hora: "))
+#     salario=horas*tarifa
+#     print("El salario es: ",salario)
+#     suma+=salario
+#     i+=1
 
-print("El total de salarios es: ",suma)
+# print("El total de salarios es: ",suma)
