@@ -14,3 +14,24 @@ for nombre in nombres:
     print(nombre)
 else:
     print('se terminaron los elementos de la lista')
+
+# preguntamos cuantos elementos tiene la lista
+print(len(nombres))
+# agregamos un elemento al final de la lista
+nombres.append('Car')
+print(nombres)
+# insertar un elemento en un indice especifico de la lista
+nombres.insert(2, 'Juan')
+print(nombres)
+#eliminar el ultimo elemento
+nombres.pop()
+print(nombres)
+#eliminar un elemento de un indice especifico
+del nombres[2]
+print(nombres)
+#eliminar o limpiar todos los elementos de la lista
+nombres.clear()
+print(nombres)
+#eliminar la lista
+del nombres
+print(nombres)
