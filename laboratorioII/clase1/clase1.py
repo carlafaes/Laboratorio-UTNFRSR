@@ -35,3 +35,5 @@ print(nombres)
 #eliminar la lista
 del nombres
 print(nombres)
+
+
