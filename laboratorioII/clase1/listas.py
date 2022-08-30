@@ -19,6 +19,8 @@ else:
 print(len(nombres))
 # agregamos un elemento al final de la lista
 nombres.append('Car')
+nombres.append([1, 2, 3, 4])  # crearia una lista anidada
+nombres.append({'dato1': 'valor1', 'dato2': 'valor2'})
 print(nombres)
 # insertar un elemento en un indice especifico de la lista
 nombres.insert(2, 'Juan')
@@ -36,31 +38,19 @@ print(nombres)
 del nombres
 # print(nombres)
 
-# tuplas
-# definimos una tupla
-cocina = ('cuchara', 'cuchillo', 'tenedor')
-print(cocina)
-print(len(cocina))
+# Concatenamos listas
+lista1 = [1, 2, 3]
+lista2 = [4, 5, 6]
+lista3 = lista1 + lista2
+print(lista3)
 
-# acceder a un elemento de la tupla
-print(cocina[0])
-# acceder a un rango
-print(cocina[0:1])
-# sale en consola ('cuchara',)
-# porque necesita una coma para ser considerado una tupla, de otra manera se consideraria un string
+lista3.extend([7, 8, 9])
+print(lista3)
 
-# recorremos los elementos de la tupla
-for cocinar in cocina:
-    print(cocinar)
-    # en lugar de q imprima un salto de linea luego del elemento, imprime un espacio
-    print(cocinar, end=' ')
+# buscar el indice de un elemento
+lista4 = ['dato1', 'dato2', 'dato3', 'dato1']
+print(lista3.index(5))  # devuelve 5
+print(lista4.index('dato2'))  # devuelve 1
 
-# como modificar una tupla
-# se debe hacer un conversion de tupla a lista, modficacion, y nuevamente de lista a tupla,(de todas maneras, no es buena practica el modificar una tupla)
-cocinaModificada = list(cocina)
-cocinaModificada[0] = 'Plato'
-cocina = tuple(cocinaModificada)
-print(cocina)
-
-#para eliminar la tupla
-del cocina
+# Como saber cuantos valores repetidos hay dentro de una lista
+print(lista4.count('dato1'))#devulve 2
