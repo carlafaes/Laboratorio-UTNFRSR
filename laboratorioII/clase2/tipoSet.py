@@ -21,3 +21,4 @@ print(planetas)
 
 # Eliminar set o conjunto
 del planetas
+
