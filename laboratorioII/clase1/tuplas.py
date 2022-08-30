@@ -26,3 +26,4 @@ print(cocina)
 
 # para eliminar la tupla
 del cocina
+
