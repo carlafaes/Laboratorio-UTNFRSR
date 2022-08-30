@@ -54,3 +54,19 @@ print(lista4.index('dato2'))  # devuelve 1
 
 # Como saber cuantos valores repetidos hay dentro de una lista
 print(lista4.count('dato1'))#devulve 2
+
+#Para poner al reves una lista
+lista4.reverse()
+print(lista4)
+
+#para que una lista se multiplique repitiendo sus elementos
+lista4=lista4 * 2
+print(lista4)
+
+#para ordenar una lista
+##ordenar ascendentemente
+lista3.sort()
+print(lista3)
+##ordenar descendentemente
+lista3.sort(reverse=True)
+print(lista3)
