@@ -71,3 +71,15 @@ seleccionArgentina[6]={'Nombre':'German Pezzella','edad':31,'Altura':1.78,'preci
 seleccionArgentina[8]={'Nombre':'Marcos Acuña','edad':30,'Altura':1.78,'precio':'18 millones'}
 seleccionArgentina[3]={'Nombre':'Nicolas Tagliafico','edad':30,'Altura':1.78,'precio':'11 millones'}
 print(seleccionArgentina)
+
+#Pilas usando listas
+pila=[1,2,3]
+
+#agregar elementos a la pila por el final
+pila.append(6)
+pila.append(5)
+print(pila)
+
+#sacamos elementos desde el final
+elementoBorrado=pila.pop()
+print(f'sacamos el elemento {elementoBorrado}')
